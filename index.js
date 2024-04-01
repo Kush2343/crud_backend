@@ -5,7 +5,7 @@ const cors = require('cors');
 const bcrypt = require('bcrypt');
 const dotenv = require('dotenv');
 
-dotenv.config({ path: '../backend/.env' });
+dotenv.config();
 
 const app = express();
 app.use(cors());
